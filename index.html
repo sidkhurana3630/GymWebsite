@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sid Fitz</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(IMG/fitness.jpg);
+        height: 1000px;
+    }
+
+    .left {
+        color: burlywood;
+        display: inline-block;
+        border: 0px solid red;
+        position: absolute;
+        left: 60px;
+        top: 35px;
+        font-size: 20px;
+    }
+
+    .left img {
+        width: 80px;
+        filter: invert(10%);
+        border-radius: 8px;
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 30px auto;
+        border: 0px solid blue;
+
+    }
+
+    .right {
+        display: inline-block;
+        border: 0px solid green;
+        position: absolute;
+        right: 3px;
+        top: 40px;
+    }
+
+    .navigationbar {
+        display: inline-block;
+    }
+
+    .navigationbar li {
+        display: inline-block;
+    }
+
+    .navigationbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 10px;
+        font-size: 18px;
+    }
+
+    .navigationbar li a:hover,
+    .navigationbar li a:active {
+        text-decoration: underline;
+        color: burlywood;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 7px;
+        color: burlywood;
+        background-color: black;
+        padding: 4px 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(63, 61, 61);
+    }
+
+    .container {
+        border: .2px solid grey;
+        margin: 15px;
+        padding: 20px;
+        width: 33%;
+        margin-top: 250px;
+        border-radius: 60px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 370px;
+        padding: 8px;
+        font-size: 18px;
+        border: 2px solid grey;
+        border-radius: 20px;
+        margin: 30px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 18%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="IMG/logo.jpg" alt="img not found">
+            <div>Sid Fitz</div>
+        </div>
+
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navigationbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li> <a href="#">ABOUT US</a></li>
+                <li> <a href="#">FITNESS HUB</a></li>
+                <li> <a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Now</button>
+            <button class="btn">Follow Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <H1>JOIN THE BEST GYM OF NOIDA</H1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Phone Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+
+</body>
+
+</html>
